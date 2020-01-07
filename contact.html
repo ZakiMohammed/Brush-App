@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Contact | Food Blog App</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    
+    <div class="navbar">
+        <h1>The Moody Foody 🍕</h1>
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="list.html">Posts</a>
+        <a href="contact.html">Contact</a>
+
+    </div>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form>
+            <div class="form-group">
+                <label for="txtName">Name</label>
+                <input type="text" name="txtName" id="txtName" placeholder="Enter name">
+            </div>
+            <div class="form-group">
+                <label for="txtPhone">Phone</label>
+                <input type="text" name="txtPhone" id="txtPhone" placeholder="Enter phone">
+            </div>
+            <div class="form-group">
+                <label for="txtMessage">Message</label>
+                <textarea name="txtMessage" id="txtMessage" rows="5" placeholder="Enter message"></textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary" type="submit" onclick="return validateForm();">Submit</button>
+                <button class="btn btn-secondary" type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="footer">        
+        All right reserved by The Moody Foody 🍕
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
