@@ -100,6 +100,10 @@ form input:focus, form textarea:focus {
 .list .post h3 {
     margin-bottom: 0px;
 }
+.list .post span {
+    font-size: 1rem;
+    color: #636e72;
+}
 
 .footer {
     background-color: #dfe6e9;
